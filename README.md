@@ -1,3 +1,37 @@
+# Trad Sessions Ireland
+
+## A place for musicians to gather and collaborate
+This is a detailed website implemented with the intention of growing social awareness of the music group as well as encouraging up and coming Irish musicians to become interested in playing and celebrating Irish music. Thw website is built so that young uders may easily navigate through the Home, Instruments and Contact page, allowing younger/ older users to quickly access relevant inforamtion or contact and join the group. 
+
+It should be noted that most people lose interest in Irish music due to lack of information about different instruments and how quickly we can learn each ones soe the second page on this site shall explain the top 10 instrument used in Irish music and there difficulty ranges to indicate the progression timeline.
+
+The homepage will outline some group information along with a hero image and meet up times for the groups upcoming sessions. 
+
+
+
+## User Story: 
+### Jake Jerson
+Jake Jerson is a 12 year old who is a massive fan of the Dubliners. When interested in learning how to play some of his favourite songs he was struggling to find an instrument that suited him. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome VinBdev,
