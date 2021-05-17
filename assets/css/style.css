@@ -1,1 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+
+header{
+    background-color: rgb(139,69,19);
+}
+
+body{
+    color: brown;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR86rAOnM8ST46TfRXnt8RcZI2XkmGEqqC-mA&usqp=CAU);
+}
