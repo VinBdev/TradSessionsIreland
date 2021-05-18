@@ -56,7 +56,15 @@ My aim for this design was to use primary black and white as the primary onstras
 
 #### Home Page
 
-This will have a call out linking to sign up page with information on the next music session. It will lso have an about section explaining why and whereb the group originated from along with its current mission statement.
+Initially there will be a consitant navigation bar across all 3 pages allowing access to Home, instruments and Contact page.
+
+There will be a main hero image initially with some small animation to bring the image to life.
+
+This will also have a call out linking to sign up page with information on the next music session. 
+
+Below that I will have an about section explaining why and where the group originated from along with its current mission statement.
+
+And finally a footer with relevant links to various social media pages of the group.
 
 #### Instruments Page
 
