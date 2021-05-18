@@ -1,17 +1,88 @@
-# Trad Sessions Ireland
+## Vincent Brown  
 
-## A place for musicians to gather and collaborate
-This is a detailed website implemented with the intention of growing social awareness of the music group as well as encouraging up and coming Irish musicians to become interested in playing and celebrating Irish music. Thw website is built so that young uders may easily navigate through the Home, Instruments and Contact page, allowing younger/ older users to quickly access relevant inforamtion or contact and join the group. 
+### User CEntric Front End Development Project
+
+## Trad Sessions Ireland
+
+### A place for musicians to gather and collaborate
+This is a detailed website implemented with the intention of growing social awareness of the music group as well as encouraging up and coming Irish musicians to become interested in playing and celebrating Irish music. Thw website is built so that young uders may easily navigate through the Home, Instruments and Contact page, allowing younger/ older users to quickly access relevant inforamtion or contact and join the group.
 
 It should be noted that most people lose interest in Irish music due to lack of information about different instruments and how quickly we can learn each ones soe the second page on this site shall explain the top 10 instrument used in Irish music and there difficulty ranges to indicate the progression timeline.
 
-The homepage will outline some group information along with a hero image and meet up times for the groups upcoming sessions. 
+The homepage will outline some group information along with a hero image and meet up times for the groups upcoming sessions.
 
 
 
-## User Story: 
-### Jake Jerson
-Jake Jerson is a 12 year old who is a massive fan of the Dubliners. When interested in learning how to play some of his favourite songs he was struggling to find an instrument that suited him. 
+### User Stories:
+
+#### Jake Jerson
+Jake Jerson is a 12 year old who is a massive fan of the Dubliners. When interested in learning how to play some of his favourite songs he was struggling to find an instrument that suited him.
+
+#### Gerald Oldman
+
+Gerald is a 65 year old experienced Irish musician who has just moved back to Leinster from a rural area in Connaught. Gerald has played for 50+ years and with this wealth of experience can also play several instruments and is now looking for a new music group to play with.
+
+
+### UX Design Stages
+
+#### Strategy
+
+My goal for this design was to allow ease of access to information as well as allowing all types of users to get information about upcoming music session as well as group information.
+
+#### Scope
+
+For users of the site I wanted to allow easy naviagtion across the 3 page structure. This is to enable new memebers of the group to bring new instrumetns and bring a different sound to the group. This will also contain contqact forms and a jumbotron to highlight when the next trad session will be.
+
+#### Structure
+
+The informational design will be very simple and eyecatching, as this page will have boith young and old users, I want to appeal to the general audeince. The homepage will have a short about section explaining how and why the group was founded, this will also encourage new memeber to join.
+
+
+#### Skeleton
+
+The navigation bar shall allow easy access to any page as well as clear instructions for the non-technical visitors to the site. Each page has a clear descrptive title as I wanted any user to have a clear and easy way to either sign up to become a member or to get the information they need to go to an event without having to sign up in case they are not tech savy.
+
+
+#### Surface
+
+My aim for this design was to use primary black and white as the primary onstrasting colors to indicate levels of importance to the various sections (navigation bar/ about section/ jumbotron/ contact form and list of images and descritopsn of instruments). This is to give a professional, sleak yet old fashioned feel to the site as the group does play old traditional music.
+
+### Technologies
+1. HTML
+2. 2. CSS
+3. 3. Bootstrap (4.2.1)
+
+### Features
+
+#### Home Page
+
+This will have a call out linking to sign up page with information on the next music session. It will lso have an about section explaining why and whereb the group originated from along with its current mission statement.
+
+#### Instruments Page
+
+This will contain a list of intruments and images of those intruments, Thedesriptions will describe what the instrument is, what music it can be used for and a progress bar indicating how long it will take to go from beginner to intermediate and advanced.
+
+#### Contacts Page
+
+At the top there will be a jumbotron cvcontaining hte groups nxt meet up time and locatino as well as highlighting to register to beocme  a member of the group.
+
+### Testing
+
+
+
+### Deployment
+
+### Credits
+
+#### Content
+
+All content in the about me section was written about me from personal experiences.
+
+#### Media
+
+The images were taken from Pexels
+
+#### Acknowledgements
 
 
 
