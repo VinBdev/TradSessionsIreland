@@ -1,6 +1,6 @@
 ## Vincent Brown  
 
-### User CEntric Front End Development Project
+### User Centric Front End Development Project
 
 ## Trad Sessions Ireland
 
