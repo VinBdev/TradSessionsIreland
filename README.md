@@ -81,10 +81,16 @@ At the top there will be a jumbotron cvcontaining hte groups nxt meet up time an
 ### Deployment
 
 ### Credits
+##### The Full Stack programme lessons on UX deisgn and Bootstrap.
+I reviewed the previous lessons of the course while typing out the core HTML and CSS structure of this project. I then used the Bootstrap framework to enable to site responsiveness for mobile/tablet and desktop users.
+##### Youtube tutorials on Bootstrap url(https://www.youtube.com/watch?v=qmPmwdshCMw)
+This was a great resource provided by my mentor on the Full Stack programme.
+##### Stack Overflow - 
+This was my first time using Stackoverflow as a resource for resolving my coding problems. The issue I cam across here was getting my navigation abr to hover over the hero image.
 
 #### Content
 
-All content in the about me section was written about me from personal experiences.
+All content in the about me section was written about my father/ family and based on personal experiences.
 
 #### Media
 
