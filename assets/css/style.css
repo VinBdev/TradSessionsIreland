@@ -40,9 +40,8 @@ header{
     font-size: 110%;
     font-family: Oswald;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    border-radius: 80%;
-    border-width: 4em;
+    letter-spacing: 3px; 
+    border-width: 5px;
 
     width: 300px;
     height: 200px;
@@ -52,8 +51,8 @@ header{
 
     background-color: #eeaeae65;
 
-    bottom: 50px;
-    left: 20px;
+    bottom: 30px;
+    left: 120px;
 
     position: absolute;
 
