@@ -78,6 +78,7 @@ footer {
 .card-body {
     max-width: 100%;
 }
-navbar {
-    color: #fafafa;
+ 
+body {
+    background-color: #c39b77;
 }
