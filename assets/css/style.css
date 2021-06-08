@@ -81,3 +81,7 @@ footer {
 body {
     background-color: #c39b77;
 }
+.my-about {
+    border: 5px dotted red;
+    justify-content: center;
+}
