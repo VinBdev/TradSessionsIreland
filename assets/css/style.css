@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+/* HEADER */
 header{
     background-color: #fafafa; 
 } 
@@ -57,11 +58,17 @@ header{
     position: absolute;
 
 }
- 
+
+/* NAVBAR */
+/* NAVBAR */
+ .navbar-default { 
+    border-color: #E7E7E7; 
+}
+ /* Footer */
 footer {
     height: 150px;
 }
-
+/* social links */
 .social-networks {
     text-align: center;
 }
@@ -74,14 +81,19 @@ footer {
     padding: 5%;
     color: #777777;
 }
-.card-body {
-    max-width: 100%;
-}
- 
+/* Body */
 body {
     background-color: #ffbd9b;
 }
 .my-about {
     border: 5px dotted red;
     justify-content: center;
+}
+
+.card-body {
+    max-width: 100%;
+}
+ 
+.h1 {
+    font-size: 150%;
 }

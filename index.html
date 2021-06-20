@@ -13,10 +13,14 @@
 
     <header id="header" class="navbar-header col"> 
         <a href="index.html"> 
-         <nav class="navbar fixed-top navbar-light bg-lightnavbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1"> 
-            <h1>Trad Sessions Ireland </h1> 
+         <nav class="navbar navbar-expand-sm navbar-light fixed-top" type="button" data-toggle="collapse" data-target="#navbar1" role="navigation"> 
+            <h1 class="h1">Trad Sessions Ireland </h1> 
           </a>
-        <ul class="nav justify-content-end" name="navbar">
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarmenu">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarmenu">
+        <ul class="nav justify-content-end navbar-default" name="navbar">
           <li class="nav-item">
             <a class="nav-link active" href="index.html">Home</a>
           </li>
@@ -27,6 +31,7 @@
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
+        </div>
 
          </nav>
     </header>
@@ -100,6 +105,13 @@
             <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"> </i></li>
         </ul> 
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
 </body>
 </html>
