@@ -88,14 +88,22 @@ body {
     background-color: #ffbd9b;
 }
 .my-about {
-    border: 5px dotted red;
+    border: 5px double red; 
+    border-style: double;
     justify-content: center;
+    max-width: fit-content;
+    box-align: center;
 }
 
 .card-body {
     max-width: 100%;
 }
  
-.h1 {
-    font-size: 150%;
+.my-container {
+    width: 100%;
+    display: flex;
+}
+
+.col {
+    flex: 1;
 }
