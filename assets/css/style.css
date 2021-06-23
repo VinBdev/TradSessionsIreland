@@ -48,7 +48,7 @@ header{
     font-size: 80px;
   }
   .h1 {
-      font-size: 1.5rem;
+      font-size: 2rem;
   }
 }
 
@@ -84,6 +84,11 @@ header{
     border-color: #E7E7E7;  
     color: #E7E7E7;
 }
+
+.navbar-text {
+    color: #E7E7E7;
+}
+
  /* Footer */
 footer {
     height: 150px;
@@ -124,6 +129,8 @@ body {
 .my-container {
     width: 100%;
     display: flex;
+    align-content: center;
+    text-align: center;
 }
 
 .my-col {
@@ -133,3 +140,14 @@ body {
 .col {
     flex: 1;
 }
+
+.btn-primary {
+    font-size: larger;
+    font-style: inherit;
+}
+
+h5 {
+    font-size: large;
+    font-style: italic;
+}
+    
