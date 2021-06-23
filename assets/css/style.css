@@ -4,8 +4,7 @@
 header{
     background-color: #fafafa; 
 } 
-
-
+ 
 #hero-image{
     height:800px;
     width: 100%;
@@ -35,8 +34,15 @@ header{
     }
 }
 
+@media screen and (max-width: 600px) {
+  .cover-text {
+    font-size: 30px;
+    justify-content: center;
+  }
+}
+
 #cover-text, #cover-text h2 {
-    color: rgb(8, 8, 7);
+    color: rgb(8, 8, 7); 
 }
 
 #cover-text {
@@ -85,7 +91,7 @@ footer {
 }
 /* Body */
 body {
-    background-color: #ffbd9b;
+    background-color: #fafafa;
 }
 .my-about {
     border: 5px double red; 
