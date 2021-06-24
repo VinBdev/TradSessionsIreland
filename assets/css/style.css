@@ -10,7 +10,10 @@
 header{
     background-color: #fafafa; 
 } 
- 
+ .micon {
+     color: #E7E7E7;
+     font-size: 4vw;
+ }
 #hero-image{
     height:800px;
     width: 100%;
@@ -74,19 +77,21 @@ header{
     text-transform: uppercase;
     letter-spacing: 3px; 
     border-width: 5px;
+    display: inline;
 
     width: 300px;
-    height: 200px;
+    height: 150px;
 
     padding-top: 40px;
-    padding-right: 10px;
+    padding-left: 10px;
 
     background-color: #eeaeae65;
 
     bottom: 30px;
-    left: 120px;
+    right: 120px;
 
     position: absolute;
+
 
 }
 
