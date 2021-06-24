@@ -151,3 +151,10 @@ h5 {
     font-style: italic;
 }
     
+/* Intruments section*/
+ 
+ .my-img {
+  display: block;
+  margin-left: auto; 
+  width: 50%;
+}
