@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /* HEADER */
+
+.nav li a {
+      color: #E7E7E7;
+      text-decoration: underline;
+      text-decoration-style: solid;
+}
 header{
     background-color: #fafafa; 
 } 
@@ -41,6 +47,9 @@ header{
   }
   .h1 {
       font-size: 3rem;
+      color: #E7E7E7;
+      text-decoration: underline;
+      text-decoration-style: solid;
   }
 }
 @media screen and (min-width: 601px) {
@@ -49,6 +58,9 @@ header{
   }
   .h1 {
       font-size: 2rem;
+      color: #E7E7E7;
+      text-decoration: underline;
+      text-decoration-style: solid;
   }
 }
 
