@@ -11,7 +11,7 @@ header{
 } 
  .micon {
      color: rgb(248, 204, 160);
-     font-size: 4vw;
+     font-size: 4rem;
      border: white 10px;
      border-color: #FCDEC0;
      border-style: groove;
@@ -45,9 +45,11 @@ header{
     }
 }
 
+
+
 @media screen and (max-width: 600px) {
   .cover-text {
-    font-size: 30px;
+    font-size: 2rem;
     justify-content: center;
   }
   .h1 {
@@ -55,6 +57,9 @@ header{
       color: #E7E7E7;
       text-decoration: underline;
       text-decoration-style: solid;
+  }
+  body {
+      flex: auto;
   }
 }
 @media screen and (min-width: 601px) {
@@ -67,6 +72,9 @@ header{
       text-decoration: underline;
       text-decoration-style: solid;
   }
+  .body, .card-index {
+    flex: auto;
+} 
 }
 
 #cover-text, #cover-text h2 {
@@ -74,7 +82,7 @@ header{
 }
 
 #cover-text {
-    font-size: 110%;
+    font-size: 2rem;
     font-family: Oswald;
     text-transform: uppercase;
     letter-spacing: 3px; 
@@ -101,10 +109,12 @@ header{
  .navbar-default { 
     border-color: #E7E7E7;  
     color: #ff9100;
+    height: 100px;
 }
 
 .navbar-text {
     color: #ff9100;
+    font-size: 2rem;
 }
 
  /* Footer */
@@ -119,7 +129,7 @@ footer {
     display: inline;
 }
 .social-networks i {
-    font-size: 160%;
+    font-size: 7rem;
     margin: 1%;
     padding: 5%;
     color: #777777;
@@ -130,6 +140,7 @@ body {
     font-family: roboto, sans-serif; 
     font-size: 1.3rem;
     color: #023047;
+    max-width: 5000px; 
 }
 
 .my-about {
@@ -140,8 +151,19 @@ body {
     box-align: center;
 }
 
+
+
+.card-index {
+    max-width: 1800pc;
+    min-width: none;
+    max-height: max-content;
+    min-height: none;
+}
+
+ 
 .card-body {
     max-width: 100%;
+    background-color: #E7E7E7;
 }
  
 .my-container {
@@ -162,12 +184,12 @@ body {
 }
 
 .btn-primary {
-    font-size: larger;
+    font-size: 3rem;
     font-style: inherit;
 }
 
 h5 {
-    font-size: x-large;
+    font-size: 3rem;
     font-style: italic;
 }
     
@@ -175,6 +197,8 @@ h5 {
  
  .my-img {
   display: block;
-  margin-left: auto; 
+  margin-left: 0; 
   width: 50%;
+  float: left;
 }
+ 
