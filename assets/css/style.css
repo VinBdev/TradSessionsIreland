@@ -96,16 +96,15 @@ header{
 
 
 }
-
-/* NAVBAR */
+ 
 /* NAVBAR */
  .navbar-default { 
     border-color: #E7E7E7;  
-    color: #E7E7E7;
+    color: #ff9100;
 }
 
 .navbar-text {
-    color: #E7E7E7;
+    color: #ff9100;
 }
 
  /* Footer */
