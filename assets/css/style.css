@@ -165,7 +165,7 @@ body {
 .card-body {
     max-width: 16rem;
     min-width: none;
-    max-height: fit-content;
+    max-height: 3000px;
     background-color: #E7E7E7;
 }
  
