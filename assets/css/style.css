@@ -155,7 +155,7 @@ body {
 
 
 .card-index {
-    max-width: 1800pc;
+    max-width: 1800px;
     min-width: none;
     max-height: max-content;
     min-height: none;
@@ -163,7 +163,9 @@ body {
 
  
 .card-body {
-    max-width: 100%;
+    max-width: 16rem;
+    min-width: none;
+    max-height: fit-content;
     background-color: #E7E7E7;
 }
  
@@ -175,9 +177,11 @@ body {
 }
 
 .my-col {
-    max-width: 100%;
+    max-width: 2500px;
+    min-width: none;
     object-fit: cover;
     object-position: left;
+    font-size: 2rem;
 }
 
 .col {
