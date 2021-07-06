@@ -17,6 +17,7 @@ header{
      border-color: #FCDEC0;
      border-style: groove;
  }
+
 #hero-image{
     height:800px;
     width: 100%;
@@ -25,7 +26,7 @@ header{
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    z-index: 1;
+    z-index: 2;
     object-fit: fill;
     object-position: center;
 }
@@ -49,7 +50,7 @@ header{
 
 
 @media screen and (max-width: 600px) {
-  .cover-text {
+  .cover-text, .hero-image {
     font-size: 2rem;
     justify-content: center;
   }
@@ -65,7 +66,7 @@ header{
   }
 }
 @media screen and (min-width: 601px) {
-  .cover-text {
+  .cover-text, .hero-image {
     font-size: 80px;
   }
   .h1 {
@@ -93,8 +94,7 @@ header{
     display: block;
     margin: 0 auto; 
     text-align: center;
-    z-index: 2;
-    position:relative;
+    z-index: 4; 
 
     width: 230px;
     height: 150px;
@@ -113,12 +113,7 @@ header{
     position: absolute;
 }
  
-.my-row {
-    background-color: #E7E7E7;
-    color: #E7E7E7;
-    z-index: 3;
-
-}
+ 
 /* NAVBAR */
 nav {
     min-height: 36px;
@@ -137,42 +132,7 @@ nav {
     padding-bottom: 15px;
     text-align: right;
 }
-
-/* Hamburger Menu */
-.topnav {
-    overflow: hidden;
-    background-color: #333;
-    position: relative;
-  }
-   
-  .topnav #myLinks {
-    display: none;
-  }
-   
-  .topnav a {
-    color: black;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-  }
-   
-  .topnav a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-   
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-   
-  .active { 
-    color: black;
-  }
+ 
 
   @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
@@ -228,6 +188,16 @@ body {
     border: #777777;
   }
 
+.my-img-about {
+    border-radius: 50%;
+}
+
+
+.groove {
+    border-style: groove; 
+    border-width: thick;
+
+}
 
 .media-index {
     max-width: 1800p;
