@@ -111,10 +111,14 @@ header{
     right: 120px;
 
     position: absolute;
-
-
 }
  
+.my-row {
+    background-color: #E7E7E7;
+    color: #E7E7E7;
+    z-index: 3;
+
+}
 /* NAVBAR */
 nav {
     min-height: 36px;
@@ -276,5 +280,6 @@ h5 {
   margin-left: 0; 
   width: 50%;
   float: left;
+  border-radius: 50%;
 }
  
