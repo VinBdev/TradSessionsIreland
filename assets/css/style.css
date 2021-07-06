@@ -76,11 +76,7 @@ header{
     flex: auto;
 } 
 }
-
-#cover-text, #cover-text {
-    color: rgb(8, 8, 7); 
-}
-
+ 
 .h2  {
     color:rgb(8, 8, 7);
     justify-items: center;
@@ -92,7 +88,12 @@ header{
     text-transform: uppercase;
     letter-spacing: 3px; 
     border-width: 5px;
-    display: inline;
+    display: block;
+    margin: 0 auto; 
+    text-align: center;
+    z-index: 1;
+    position:relative
+
 
     width: 300px;
     height: 150px;
