@@ -253,3 +253,8 @@ h5 {
   border-radius: 50%;
 }
  
+@media (max-width: 767px) {
+    .progress {
+        display:none;
+    }
+}
