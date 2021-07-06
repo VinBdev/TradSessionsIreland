@@ -202,7 +202,7 @@ footer {
 }
 /* Body */
 body {
-    background-color: white; 
+    background-color: rgba(148, 119, 89, 0.514); 
     font-family: roboto, sans-serif; 
     font-size: 1.3rem;
     color: #023047; 
@@ -216,9 +216,16 @@ body {
     box-align: center;
 }
 
+.my-about-container {
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #777777;
+  }
 
 
-.card-index {
+.media-index {
     max-width: 1800p;
     min-width: none;
     max-height: max-content;
