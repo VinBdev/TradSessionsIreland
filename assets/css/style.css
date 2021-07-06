@@ -77,8 +77,13 @@ header{
 } 
 }
 
-#cover-text, #cover-text h2 {
+#cover-text, #cover-text {
     color: rgb(8, 8, 7); 
+}
+
+.h2  {
+    color:rgb(8, 8, 7);
+    justify-items: center;
 }
 
 #cover-text {
@@ -96,6 +101,7 @@ header{
     padding-left: 10px;
 
     background-color: #eeaeae65;
+    color: black;
 
     bottom: 30px;
     right: 120px;
@@ -155,7 +161,7 @@ body {
 
 
 .card-index {
-    max-width: 1800px;
+    max-width: 1800p;
     min-width: none;
     max-height: max-content;
     min-height: none;
@@ -165,7 +171,7 @@ body {
 .card-body {
     max-width: 16rem;
     min-width: none;
-    max-height: 3000px;
+    max-height: fit-content;
     background-color: #E7E7E7;
 }
  
