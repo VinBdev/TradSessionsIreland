@@ -50,7 +50,7 @@ header{
 
 
 @media screen and (max-width: 600px) {
-  .cover-text, .hero-image {
+  .cover-text, .hero-image, .body {
     font-size: 2rem;
     justify-content: center;
   }
@@ -96,7 +96,7 @@ header{
     text-align: center;
     z-index: 4; 
 
-    width: 230px;
+    width: 260px;
     height: 150px;
 
     padding-top: 40px;
@@ -166,7 +166,7 @@ footer {
 }
 /* Body */
 body {
-    background-color: rgba(148, 119, 89, 0.514); 
+    background-color: white; 
     font-family: roboto, sans-serif; 
     font-size: 1.3rem;
     color: #023047; 
@@ -210,8 +210,7 @@ body {
 .card-body {
     max-width: 16rem;
     min-width: none;
-    max-height: fit-content;
-    background-color: #E7E7E7;
+    max-height: fit-content; 
 }
  
 .my-container {
@@ -227,6 +226,7 @@ body {
     object-fit: cover;
     object-position: left;
     font-size: 2rem;
+    background-color: rgba(148, 119, 89, 0.514)
 }
 
 .col {
