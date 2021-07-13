@@ -2,6 +2,12 @@
 
 /* HEADER */
 
+.wrapper {
+    width: 100%;
+    margin-left: auto;
+    max-width: 3500px;
+}
+
 .nav li a {
       color: #023047;
       text-decoration: underline; 
@@ -215,6 +221,8 @@ body {
  
 .my-container {
     width: 100%;
+    margin-left: auto;
+    max-width: 1200px;
     display: flex;
     align-content: center;
     text-align: center;
