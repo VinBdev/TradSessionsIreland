@@ -100,7 +100,7 @@ header{
     display: block;
     margin: 0 auto; 
     text-align: center;
-    z-index: 4; 
+    z-index: 6; 
 
     width: 260px;
     height: 150px;
@@ -119,6 +119,9 @@ header{
     position: absolute;
 }
  
+ .intrument-link {
+     font-weight: bold;
+ }
  
 /* NAVBAR */
 nav {
