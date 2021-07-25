@@ -11,14 +11,31 @@ It should be noted that most people lose interest in Irish music due to lack of 
 
 The homepage will outline some group information along with a hero image and meet up times for the groups upcoming sessions.
 
+## View the deployed Project Here ----> ADD LINK FOR FINISHED SITE
+
+### Business Goal's
+* To increase the volume of attendees registering and attending the upcoming trad sessions.
+* To allow new musicians of all ages to locate and attend the next trad session.
+* To allow musicians of all ages and levels of experience to find out more about various instruments of Irish music.
+  
+### User Goals:
+* To provide a simple yet easy flowing website capable for users of varying tech abilities to get easy access to infromatoin and become a member of music community
+* To encourage the next generation of Irish musicians by celebrating Irish culture.
+* To allow less experienced internet users easy access to the information of the trad group.
 
 
-### User Stories:
+### Target Market & User Stories:
+#### Taget Market:
+* Any level of expereinced musician 
+* Anyone interested in playing Irish music
+* Anyone interested in listenign to or celebratin Irish music.
 
-#### Jake Jerson
+#### User Stories:
+
+#####  Jake Jerson
 Jake Jerson is a 12 year old who is a massive fan of the Dubliners. When interested in learning how to play some of his favourite songs he was struggling to find an instrument that suited him.
-
-#### Gerald Oldman
+  
+#####  Gerald Oldman
 
 Gerald is a 65 year old experienced Irish musician who has just moved back to Leinster from a rural area in Connaught. Gerald has played for 50+ years and with this wealth of experience can also play several instruments and is now looking for a new music group to play with.
 
@@ -47,10 +64,12 @@ The navigation bar shall allow easy access to any page as well as clear instruct
 
 My aim for this design was to use primary black and white as the primary onstrasting colors to indicate levels of importance to the various sections (navigation bar/ about section/ jumbotron/ contact form and list of images and descritopsn of instruments). This is to give a professional, sleak yet old fashioned feel to the site as the group does play old traditional music.
 
-### Technologies
-1. HTML
-2. 2. CSS
-3. 3. Bootstrap (4.2.1)
+### Wireframe Mock ups:
+* Home 
+* Instruments 
+* Contact 
+
+
 
 ### Features
 
@@ -73,6 +92,12 @@ This will contain a list of intruments and images of those intruments, Thedesrip
 #### Contacts Page
 
 At the top there will be a jumbotron cvcontaining hte groups nxt meet up time and locatino as well as highlighting to register to beocme  a member of the group.
+
+### Technologies
+1. HTML
+2. 2. CSS
+3. 3. Bootstrap (4.2.1)
+
 
 ### Testing
 

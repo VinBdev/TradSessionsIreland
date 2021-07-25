@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /* HEADER */
@@ -29,12 +36,17 @@ header{
     width: 100%;
     background: url("../images/tradireland-hero-image.jpeg") no-repeat center center ;
     background-size: cover;
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+    -webkit-animation-name: hero-zoom;
+            animation-name: hero-zoom;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
     z-index: 2;
-    object-fit: fill;
-    object-position: center;
+    -o-object-fit: fill;
+       object-fit: fill;
+    -o-object-position: center;
+       object-position: center;
 }
 
 #hero-outer{
@@ -44,30 +56,47 @@ header{
     position: relative;
 }
 
-@keyframes hero-zoom {
+@-webkit-keyframes hero-zoom {
     from{
-        transform: scale(1);
+        -webkit-transform: scale(1);
+                transform: scale(1);
     }
     to{
-        transform: scale(1.07);
+        -webkit-transform: scale(1.07);
+                transform: scale(1.07);
+    }
+}
+
+@keyframes hero-zoom {
+    from{
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+    to{
+        -webkit-transform: scale(1.07);
+                transform: scale(1.07);
     }
 }
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 320px) {
   .cover-text, .hero-image, .body {
     font-size: 2rem;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .h1 {
-      font-size: 3rem;
-      color: #E7E7E7;
+      font-size: 3rem; 
       text-decoration: underline;
-      text-decoration-style: solid;
+      -webkit-text-decoration-style: solid;
+              text-decoration-style: solid;
   }
   body {
-      flex: auto;
+      -webkit-box-flex: 1;
+          -ms-flex: auto;
+              flex: auto;
       display: block;
   }
 }
@@ -76,13 +105,15 @@ header{
     font-size: 80px;
   }
   .h1 {
-      font-size: 2rem;
-      color: #E7E7E7;
+      font-size: 2rem; 
       text-decoration: underline;
-      text-decoration-style: solid;
+      -webkit-text-decoration-style: solid;
+              text-decoration-style: solid;
   }
   .body, .card-index {
-    flex: auto;
+    -webkit-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
 } 
 }
  
@@ -109,8 +140,7 @@ header{
     padding-left: 10px;
     padding-right: 20px;
     padding-left: 10px;
-
-    background-color: #eeaeae65;
+ 
     color: black;
 
     bottom: 30px;
@@ -126,6 +156,8 @@ header{
 /* NAVBAR */
 nav {
     min-height: 36px;
+    max-height: -webkit-min-content;
+    max-height: -moz-min-content;
     max-height: min-content;
 }
  
@@ -143,7 +175,7 @@ nav {
 }
  
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 320px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
       position: absolute;
@@ -184,16 +216,25 @@ body {
 .my-about {
     border: 5px double red; 
     border-style: double;
-    justify-content: center;
-    max-width: fit-content;
-    box-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content; 
 }
 
 .my-about-container {
     min-height: 100vh; 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     border: #777777;
   }
 
@@ -209,16 +250,17 @@ body {
 }
 
 .media-index {
-    max-width: 1800p;
-    min-width: none;
-    max-height: max-content;
-    min-height: none;
+    max-width: 1800px; 
+    max-height: -webkit-max-content;
+    max-height: -moz-max-content;
+    max-height: max-content; 
 }
-
+ 
  
 .card-body {
-    max-width: 16rem;
-    min-width: none;
+    max-width: 16rem; 
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
     max-height: fit-content; 
 }
  
@@ -226,22 +268,28 @@ body {
     width: 100%;
     margin-left: auto;
     max-width: 1200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
     text-align: center;
 }
 
 .my-col {
-    max-width: 2500px;
-    min-width: none;
-    object-fit: cover;
-    object-position: left;
+    max-width: 2500px; 
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: left;
+       object-position: left;
     font-size: 2rem;
     background-color: rgba(148, 119, 89, 0.514)
 }
 
 .col {
-    flex: 1;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
 }
 
 .btn-primary {
@@ -249,7 +297,7 @@ body {
     font-style: inherit;
 }
 
-h5 {
+h2 {
     font-size: 3rem;
     font-style: italic;
 }
@@ -264,8 +312,12 @@ h5 {
   border-radius: 50%;
 }
  
-@media (max-width: 767px) {
+@media (max-width: 321px) {
     .progress {
         display:none;
+    }
+
+    .my-img-  {
+       display: none; 
     }
 }
