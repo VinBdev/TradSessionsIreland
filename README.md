@@ -26,14 +26,14 @@ The homepage will outline some group information along with a hero image and mee
 
 ### Target Market & User Stories:
 #### Taget Market:
-* Any level of expereinced musician 
+* Any level of experienced musician 
 * Anyone interested in playing Irish music
 * Anyone interested in listenign to or celebratin Irish music.
 
 #### User Stories:
 
 #####  Jake Jerson
-Jake Jerson is a 12 year old who is a massive fan of the Dubliners. When interested in learning how to play some of his favourite songs he was struggling to find an instrument that suited him.
+Jake Jerson is a 12 year old who is a massive fan of the Dubliners. When interested in learning how to play some of his favourite songs he was struggling to find an instrument that suited him. Therefore this site would be perfect for him to read up on some of the most popular instruments used in trad music or to go to the next live session and directly speak with experienced musician who would happily pass on 
   
 #####  Gerald Oldman
 
@@ -93,38 +93,69 @@ This will contain a list of intruments and images of those intruments, Thedesrip
 
 At the top there will be a jumbotron cvcontaining hte groups nxt meet up time and locatino as well as highlighting to register to beocme  a member of the group.
 
+### Features to Add in Future
+* Adding a CAPTCHA tot he contact form page would reduce volume of spam messages coming into the group and only allow for genuinely interest people to get in touch.
+* Cookie and GDPR compliance page to allow users to have more control of how their data will be used.
+* It would be great to set up an FAQ page for this site as with older members of the group their can tend to be regular recurring questions.
+
 ### Technologies
-1. HTML
-2. 2. CSS
-3. 3. Bootstrap (4.2.1)
+1.  HTML - Hyper Text Markup Language 
+2.  CSS - Cascading Style Sheets
+3.  Bootstrap (4.2.1) - Mobile Responsive Framework
+4.  Gitpod - Cloud Based IDE linked with Github
+5.  Github - Online repository for hosting site
+6.  Google Fonts/ Icons - Provided a variety of font styles and icons used in the project
+7.  Auto prefixer - to help structure code when finished - https://autoprefixer.github.io/
+8.  HTML and CSS Validators - https://validator.w3.org/nu/#textarea / https://jigsaw.w3.org/css-validator/validator
+
+
 
 
 ### Testing
 
+1. Home Page
+ * The navigation bar was built in a container using bootstrap so to ensure this was mobile responsive I used Chrome developer tools regularly to ensure the navbars responsiveness.
+ * This included a title, icon and 3 options to navigate throughout the sites pages.
+ * The hero image was chosen from pexels.com and then comressed to maximise the screen load time - Changed after feedback from Lighthouse
+ * The About Section is one container split into 4 rows with 2 columns per row. Each image was compressed and the text was enlarged to ensure easier readability for mature visitors to the site.
+ * The bottom of the page consists of 4 links to variious social media sites to allow teh user to easily follow the groups social platforms.
+ * All links have been clicked and checked to ensure they are fully functional in mobile and desktop view.
+ * Lighthouse mobile testing system was used regularly to improve overall UX design and mobile experience.
 
+2. Instruments Page
+ * 
 
 ### Deployment
 
 ### Credits
-##### The Full Stack programme lessons on UX deisgn and Bootstrap.
+
+##### The Full Stack programme lessons on UX design and Bootstrap.
 I reviewed the previous lessons of the course while typing out the core HTML and CSS structure of this project. I then used the Bootstrap framework to enable to site responsiveness for mobile/tablet and desktop users.
+
 ##### Youtube tutorials on Bootstrap url(https://www.youtube.com/watch?v=qmPmwdshCMw)
 This was a great resource provided by my mentor on the Full Stack programme.
+
 ##### Stack Overflow - 
 This was my first time using Stackoverflow as a resource for resolving my coding problems. The issue I cam across here was getting my navigation abr to hover over the hero image.
 
 #### Content
 
-All content in the about me section was written about my father/ family and based on personal experiences.
+* All content in the about me section was written about my father/ family and based on personal experiences from his time playing trad music.
+* The content was written by me and reflects my fathers knowledge of trad music sessions and instruments.
 
 #### Media
 
-The images were taken from Pexels
+The images were taken from Pexels and Unsplash
+* https://www.pexels.com/
+* https://unsplash.com/
+
+The additional links in the instruments descriptive sections are to the realtive wikipedia page of that instrument to provide some addtional insight to the history of each instrument and how they became an integral part of Irish trad music.
 
 #### Acknowledgements
+* I was inspired to create this site after numerous conversations with my own father about Irish musical instruments. I would often be curious as to what instruments were most popular within trad music and how he find out about what trad sessions are happening at different times and locations. This website is desigend to be a solution to that problem.
 
-
-
+#### Disclaimer
+* This project is for educatoinal purposes only.
 
 
 
