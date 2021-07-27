@@ -75,17 +75,23 @@ My aim for this design was to use primary black and white as the primary onstras
 
 #### Home Page
 
-Initially there will be a consitant navigation bar across all 3 pages allowing access to Home, instruments and Contact page.
+* Initially there is a consitant navigation bar across all 3 pages allowing access to Home, instruments and Contact page.
 
-There will be a main hero image initially with some small animation to bring the image to life.
+* The main hero image initially with some small animation to focus, zoom and bring the image to life.
 
-This will also have a call out linking to sign up page with information on the next music session. 
+* Below this I have created a call out linking to sign up page with information on the next music session. 
 
-Below that I will have an about section explaining why and where the group originated from along with its current mission statement.
+* Then I have an about section which has been split into 4 sections explaining where the group originated from,  why it was founded, who can play in the groupd and what type of music is played by the group. Each section also contains an image to supplement the UX design of the about sectoins and bring a sense of Irishness to the page.
 
-And finally a footer with relevant links to various social media pages of the group.
+* And finally a footer with relevant links to various social media pages of the group.
 
 #### Instruments Page
+
+* Initially there is a consitant navigation bar across all 3 pages allowing access to Home, instruments and Contact page.
+
+* The main hero image initially with some small animation to focus, zoom and bring the image to life.
+
+*
 
 This will contain a list of intruments and images of those intruments, Thedesriptions will describe what the instrument is, what music it can be used for and a progress bar indicating how long it will take to go from beginner to intermediate and advanced.
 
@@ -114,18 +120,41 @@ At the top there will be a jumbotron cvcontaining hte groups nxt meet up time an
 ### Testing
 
 1. Home Page
- * The navigation bar was built in a container using bootstrap so to ensure this was mobile responsive I used Chrome developer tools regularly to ensure the navbars responsiveness.
+ * The navigation bar was built in a container using bootstrap so to ensure this was mobile responsive I used Chrome developer tools regularly to ensure the navbars responsiveness. This was tested with chrom dev tools using Iphone 5, desktop and IMAC sizes.
  * This included a title, icon and 3 options to navigate throughout the sites pages.
  * The hero image was chosen from pexels.com and then comressed to maximise the screen load time - Changed after feedback from Lighthouse
  * The About Section is one container split into 4 rows with 2 columns per row. Each image was compressed and the text was enlarged to ensure easier readability for mature visitors to the site.
- * The bottom of the page consists of 4 links to variious social media sites to allow teh user to easily follow the groups social platforms.
+ * The bottom of the page consists of 4 links to variious social media sites to allow the user to easily follow the groups social platforms.
  * All links have been clicked and checked to ensure they are fully functional in mobile and desktop view.
+ * Each link has been tested by clicking and ensuring that if the link is to another area on the site that it open in the same tab.
+ * If using a link to an external site e.g. using the resources in the about sections or the social media links, then the page will open in a new tab to ensure consistency and overall UX principles.
  * Lighthouse mobile testing system was used regularly to improve overall UX design and mobile experience.
 
-2. Instruments Page
- * 
+2. Instruments Page 
+ * The navigation bar was built in a container using bootstrap so to ensure this was mobile responsive I used Chrome developer tools regularly to ensure the navbars responsiveness.
+ * This included a title, icon and 3 options to navigate throughout the sites pages. 
+ * Each link has been tested by clicking and ensuring that if the link is to another area on the site that it open in the same tab.
+ * The hero image was chosen from pexels.com and then downloaded and comressed to maximise the screen load time - Changed after feedback from Lighthouse
+ * The instruments section was divided into ten cards. These were compiled in containers and rows to ensure consistency with mobile/ desktop view. Each card contains a progress bar to indicate the length of time it takes to learn each instrument. Each instrument also has a link which brings the user to the wikipedia page of that intrument to research further. 
+ * The bottom of the page consists of 4 links to variious social media sites to allow the user to easily follow the groups social platforms.
+ * All links have been clicked and checked to ensure they are fully functional in mobile and desktop view.
+ * Each link has been tested by clicking and ensuring that if the link is to another area on the site that it open in the same tab.
+ * If using a link to an external site e.g. using the resources in the about sections or the social media links, then the page will open in a new tab to ensure consistency and overall UX principles.
 
+3. Contact Page
+* The navigation bar was built in a container using bootstrap so to ensure this was mobile responsive I used Chrome developer tools regularly to ensure the navbars responsiveness.
+ * This included a title, icon and 3 options to navigate throughout the sites pages. 
+ * Each link has been tested by clicking and ensuring that if the link is to another area on the site that it open in the same tab.
+ * The hero image was chosen from pexels.com and then downloaded and comressed to maximise the screen load time - Changed after feedback from Lighthouse
+ * There are two contact forms on this page, the first is to register and attend the next session - to ensure the maximum number of attendees - only an email is required for this.
+ * The second contact form is to submit a message/ questions / feedback to the group. To ensure the page is not spammed there is a tick box which can reduce automated spams.
+* The bottom of the page consists of 4 links to variious social media sites to allow the user to easily follow the groups social platforms.
+ * All links have been clicked and checked to ensure they are fully functional in mobile and desktop view.
+ * Each link has been tested by clicking and ensuring that if the link is to another area on the site that it open in the same tab.
+ * If using a link to an external site e.g. using the resources in the about sections or the social media links, then the page will open in a new tab to ensure consistency and overall UX principles.
+ * 
 ### Deployment
+This project was created using the Cloud based IDE Gitpod, I continuously committed and pushed my code to Github. This was recommended by Code Institute. 
 
 ### Credits
 
@@ -154,8 +183,10 @@ The additional links in the instruments descriptive sections are to the realtive
 #### Acknowledgements
 * I was inspired to create this site after numerous conversations with my own father about Irish musical instruments. I would often be curious as to what instruments were most popular within trad music and how he find out about what trad sessions are happening at different times and locations. This website is desigend to be a solution to that problem.
 
+I also received various links and resources from my mentor Brian Macharia
+
 #### Disclaimer
-* This project is for educatoinal purposes only.
+* This project is for educational purposes only.
 
 
 
