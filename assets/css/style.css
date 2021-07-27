@@ -47,6 +47,7 @@ header{
        object-fit: fill;
     -o-object-position: center;
        object-position: center;
+       margin:  0 0 10px;
 }
 
 #hero-outer{
@@ -81,8 +82,9 @@ header{
 
 
 @media screen and (max-width: 320px) {
-  .cover-text, .hero-image, .body {
+   .hero-image, .body {
     font-size: 2rem;
+    flex: content;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -104,23 +106,24 @@ header{
   .cover-text, .hero-image {
     font-size: 80px;
   }
-  .h1 {
-      font-size: 2rem; 
+  .h2 {
+      font-size: 4rem; 
       text-decoration: underline;
       -webkit-text-decoration-style: solid;
-              text-decoration-style: solid;
+              text-decoration-style: solid;  
+              font-weight: bold;         
+    color:rgb(8, 8, 7);
+    justify-items: center;
   }
   .body, .card-index {
     -webkit-box-flex: 1;
         -ms-flex: auto;
             flex: auto;
+            display: block;
 } 
 }
  
-.h2  {
-    color:rgb(8, 8, 7);
-    justify-items: center;
-}
+
 
 #cover-text {
     font-size: 2rem;
@@ -213,6 +216,11 @@ body {
     color: #023047; 
 }
 
+.my-about-row{
+    margin: 0 0 10px;
+
+}
+
 .my-about {
     border: 5px double red; 
     border-style: double;
@@ -221,7 +229,7 @@ body {
             justify-content: center;
     max-width: -webkit-fit-content;
     max-width: -moz-fit-content;
-    max-width: fit-content; 
+    max-width: fit-content;  
 }
 
 .my-about-container {
@@ -236,6 +244,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
     border: #777777;
+    
   }
 
 .my-img-about {
@@ -297,7 +306,7 @@ body {
     font-style: inherit;
 }
 
-h2 {
+h1 {
     font-size: 3rem;
     font-style: italic;
 }
@@ -312,7 +321,7 @@ h2 {
   border-radius: 50%;
 }
  
-@media (max-width: 321px) {
+@media (max-width: 320px) {
     .progress {
         display:none;
     }
