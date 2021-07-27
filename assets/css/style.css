@@ -102,11 +102,12 @@ header{
       display: block;
   }
 }
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 1600px) {
   .cover-text, .hero-image {
     font-size: 80px;
   }
-  .h2 {
+  
+  .card-title {
       font-size: 4rem; 
       text-decoration: underline;
       -webkit-text-decoration-style: solid;
@@ -178,7 +179,7 @@ nav {
 }
  
 
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 319px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
       position: absolute;
@@ -190,6 +191,10 @@ nav {
       display: block;
       text-align: left;
     }
+    .my-img-about { 
+         display: none;
+        }
+      
   }
  /* Footer */
 footer {
@@ -306,7 +311,7 @@ body {
     font-style: inherit;
 }
 
-h1 {
+h2 {
     font-size: 3rem;
     font-style: italic;
 }
