@@ -350,7 +350,12 @@ h2 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
- 
+.progress {
+    display:none;          
+margin-bottom: 15px;
+margin-top: 15px;
+}
+
 @media (max-width: 320px) {
     .progress {
         display:none;          
