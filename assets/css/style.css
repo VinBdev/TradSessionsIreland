@@ -285,7 +285,12 @@ body {
     max-height: max-content; 
 }
  
- 
+ .card-img-top{
+     margin-top: 10px;
+     border-radius: 50%;
+
+ }
+
 .card-body {
     max-width: 16rem; 
     max-height: -webkit-fit-content;
@@ -327,6 +332,7 @@ body {
     font-size: 2rem;
     font-style: inherit;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 h2 {
