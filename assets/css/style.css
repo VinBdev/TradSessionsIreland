@@ -373,3 +373,6 @@ h2 {
     justify-content: center;
     text-align: center;
 } 
+.form-control {
+    text-align: center;
+}
