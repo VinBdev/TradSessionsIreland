@@ -113,6 +113,7 @@ At the top there will be a jumbotron cvcontaining hte groups nxt meet up time an
 6.  Google Fonts/ Icons - Provided a variety of font styles and icons used in the project
 7.  Auto prefixer - to help structure code when finished - https://autoprefixer.github.io/
 8.  HTML and CSS Validators - https://validator.w3.org/nu/#textarea / https://jigsaw.w3.org/css-validator/validator
+9.  Chrome Developer Tools - Provided continuous learning and developmetn tools to ensure high quality mobile user experience
 
 
 
@@ -152,9 +153,30 @@ At the top there will be a jumbotron cvcontaining hte groups nxt meet up time an
  * All links have been clicked and checked to ensure they are fully functional in mobile and desktop view.
  * Each link has been tested by clicking and ensuring that if the link is to another area on the site that it open in the same tab.
  * If using a link to an external site e.g. using the resources in the about sections or the social media links, then the page will open in a new tab to ensure consistency and overall UX principles.
- * 
+ * The checkbox functions as a required field in order to ensure less spam mail coming through. I tested each link and the checkbox as part of this process
+
+###### Lighthouse Results
+1. Perfromance = 94%
+2. Accessibility = 95%
+3. Best Practices = 80%
+4. SEO = 80%
+
+
 ### Deployment
-This project was created using the Cloud based IDE Gitpod, I continuously committed and pushed my code to Github. This was recommended by Code Institute. 
+This project was created using the Cloud based IDE Gitpod, I continuously added, committed and pushed my code to Github. This was instructed by Code Institute lessons and by my mentor.
+In order to deploy my website to github I followed the below steps:
+1. I began by logging into my Github account
+2. Then I click repositories if not already in the top used repositories and click on the link TradSessionsIreland
+3. Once I had opened this file then selected the settings option
+4. At this stage I scrolled down until you saw the Github pages section - this brought me to the dedicated page to deploying your site
+5.  I then clicked a drop-down menu item which was labelled None and selected the Master branch 
+6.   The website automatically deployed once I selected the master branch
+7. I then scrolled back down to the section of Github pages to get the link for the deployed site. 
+Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+
+[Visit Live Site Here](https://vinbdev.github.io/TradSessionsIreland/ "Trad Sessions Ireland")
+
+
 
 ### Credits
 
@@ -171,6 +193,7 @@ This was my first time using Stackoverflow as a resource for resolving my coding
 
 * All content in the about me section was written about my father/ family and based on personal experiences from his time playing trad music.
 * The content was written by me and reflects my fathers knowledge of trad music sessions and instruments.
+* The images were all free resources taken from Pexels and Unsplash. At the advice of my mentor I downloaded these images and compressed them to ensure high quality imagery throughout the site.
 
 #### Media
 
