@@ -80,9 +80,16 @@ header{
     }
 }
 
+.progress {
+    display:flex;          
+margin-bottom: 15px;
+margin-top: 15px;
+}
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 620px)
+
+{
    .hero-image, .body {
     font-size: 2rem;
     flex: content;
@@ -101,6 +108,29 @@ header{
               flex: auto;
       display: block;
   }
+
+
+.my-img-  {
+   display: none;        
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.topnav.responsive {position: relative;}
+.topnav.responsive a.icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.topnav.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+.my-img-about { 
+     display: flex;
+margin-top: 10px;
+margin-bottom: 10px;
+    }
 }
 @media screen and (min-width: 1600px) {
   .cover-text, .hero-image {
@@ -178,25 +208,7 @@ nav {
 }
  
 
-  @media screen and (max-width: 319px) {
-    .topnav.responsive {position: relative;}
-    .topnav.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    .my-img-about { 
-         display: none;
-  margin-top: 10px;
-  margin-bottom: 10px;
-        }
-      
-  }
+  
  /* Footer */
 footer {
     height: 150px;
@@ -345,30 +357,15 @@ h2 {
  .my-img {
   display: block;
   margin-left: 0; 
-  width: 50%;
+  width: fit-content;
+  height: fit-content;
   float: left;   
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.progress {
-    display:none;          
-margin-bottom: 15px;
-margin-top: 15px;
-}
+ 
 
-@media (max-width: 320px) {
-    .progress {
-        display:none;          
-    margin-bottom: 15px;
-    margin-top: 15px;
-    }
 
-    .my-img-  {
-       display: none;        
-  margin-top: 10px;
-  margin-bottom: 10px;
-    }
-}
 
 /* Contact Page*/
 .contact-row, .jumbotron{
