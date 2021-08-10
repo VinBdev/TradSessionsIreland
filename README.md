@@ -65,11 +65,17 @@ The navigation bar shall allow easy access to any page as well as clear instruct
 My aim for this design was to use primary black and white as the primary onstrasting colors to indicate levels of importance to the various sections (navigation bar/ about section/ jumbotron/ contact form and list of images and descritopsn of instruments). This is to give a professional, sleak yet old fashioned feel to the site as the group does play old traditional music.
 
 ### Wireframe Mock ups:
-* Home 
-* Instruments 
-* Contact 
+1. Home
+ ![TradSessionsIreland-Home-wireframe (1)](https://user-images.githubusercontent.com/69219036/128880962-68a3b130-37cb-42b3-b3a2-d84caafb20db.png)
+
+2. Instruments 
+
+![TradSessionsIreland-instruments-wireframe (1)](https://user-images.githubusercontent.com/69219036/128881261-5624a924-89cf-40d1-a231-cf373d4714d4.png) 
 
 
+3. Contact 
+
+ ![TradSessionsIreland-contact-wireframe](https://user-images.githubusercontent.com/69219036/128881396-62f63fe4-e204-47e9-bec6-ead59d407d1d.png)
 
 ### Features
 
