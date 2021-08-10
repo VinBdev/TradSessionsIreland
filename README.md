@@ -11,7 +11,7 @@ It should be noted that most people lose interest in Irish music due to lack of 
 
 The homepage will outline some group information along with a hero image and meet up times for the groups upcoming sessions.
 
-## View the deployed Project Here ----> ADD LINK FOR FINISHED SITE
+## View the deployed Project Here ----> https://vinbdev.github.io/TradSessionsIreland/
 
 ### Business Goal's
 * To increase the volume of attendees registering and attending the upcoming trad sessions.
